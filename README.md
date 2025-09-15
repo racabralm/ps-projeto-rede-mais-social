@@ -82,7 +82,7 @@ Após a execução do último comando, a aplicação estará rodando localmente.
 | Nome                       | RA        |
 | -------------------------- | --------- |
 | Bruna Amorim Maia          | 10431883  |
-| Rafael Araújo Cabral Moreira | 10441919  |
+| Rafael Araujo Cabral Moreira | 10441919  |
 
 **Turma:** 04N
 
