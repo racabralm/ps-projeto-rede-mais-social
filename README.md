@@ -14,13 +14,6 @@ O desenvolvimento deste projeto segue os princípios de engenharia de software, 
 
 Este repositório contém a **implementação completa do Cenário UC002 – Solicitar Afiliação**, que corresponde ao fluxo em que o voluntário (Pessoa Física ou Pessoa Jurídica) realiza a solicitação inicial de afiliação e interage com o Termo de Uso da plataforma.
 
-### ✨ Features
-
-* Cadastro e afiliação de Voluntários (Pessoa Física e Jurídica).
-* Cadastro e afiliação de ONGs.
-* Análise e aprovação de cadastros pela plataforma. 
-* Recomendação de ONGs e campanhas para voluntários. 
-
 ## 📂 Estrutura do Repositório
 
 ```
@@ -72,6 +65,13 @@ uc002-afiliacao/
    ```
    http://localhost:8080/login.html
    ```
+   
+### ✨ Features
+
+* Cadastro e afiliação de Voluntários (Pessoa Física e Jurídica).
+* Cadastro e afiliação de ONGs.
+* Análise e aprovação de cadastros pela plataforma. 
+* Recomendação de ONGs e campanhas para voluntários. 
 
 ---
 
