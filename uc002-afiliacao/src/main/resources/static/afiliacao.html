@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Afiliação</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="header-top">MAIS SOCIAL</div> <div class="content-wrapper"> <div class="card">
+    <h1>Afiliação</h1>
+
+    <div class="tabs">
+        <div id="tabPF" class="tab active" onclick="switchTab('pf')">Pessoa Física</div>
+        <div id="tabPJ" class="tab" onclick="switchTab('pj')">Pessoa Jurídica</div>
+    </div>
+
+    <div id="formPF">
+        <label for="pf-cpf">CPF</label>
+        <input id="pf-cpf">
+
+        <label for="pf-nome">Nome</label>
+        <input id="pf-nome">
+
+        <label for="pf-nasc">Nascimento</label>
+        <input type="date" id="pf-nasc">
+
+        <label for="pf-sexo">Sexo</label>
+        <select id="pf-sexo">
+            <option value="F">Feminino</option>
+            <option value="M">Masculino</option>
+        </select>
+
+        <button onclick="enviarPF()">Enviar Cadastro PF</button>
+    </div>
+
+    <div id="formPJ" style="display:none;">
+        <label for="pj-cnpj">CNPJ</label>
+        <input id="pj-cnpj">
+
+        <label for="pj-razao">Razão Social</label>
+        <input id="pj-razao">
+
+        <label for="pj-arquivo">Certidão (arquivo)</label>
+        <input type="file" id="pj-arquivo">
+
+        <button onclick="enviarPJ()">Enviar Cadastro PJ</button>
+    </div>
+</div>
+</div>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
