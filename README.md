@@ -27,5 +27,7 @@ O desenvolvimento deste projeto segue os princípios de engenharia de software, 
 | Rafael Araujo Cabral Moreira | 10441919  |
 
 **Turma:** 04N
+
 **Prof.:** Ana Claudia Rossi
+
 ---
